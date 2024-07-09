@@ -78,7 +78,7 @@ class ModelTrainer:
             logging.info("Created projectmodel object with preprocessor and model")
             logging.info("Created best model file path.")
 
-            save_object(self.model_trainer_config.trained_model_file_path,projectmodel)
+            save_object(self.model_trainer_config.trained_model_file_path,visa_model)
 
             model_trainer_artifact = ModelTrainerArtifact(
                 trained_model_file_path=self.model_trainer_config.trained_model_file_path,

@@ -36,9 +36,9 @@ model_selection:
       n_estimators: 100
     search_param_grid:
       max_depth:
-      - 16
       - 18
       - 20
+      - 22
       max_features:
       - log2
       - sqrt
