@@ -12,4 +12,4 @@
 
 # Deployment
 
-* AWS-CICD-Pipeline-with-Github-Actions
+* AWS-CI/CD-Pipeline-with-Github-Actions
